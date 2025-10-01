@@ -10,7 +10,7 @@ function Register({ user }) {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
 
-    const handleLogin = async (e) => {
+    const handleRegister = async (e) => {
         e.preventDefault();
         const response = await fetch(api_link + "/api/register", {
             method: "POST",
