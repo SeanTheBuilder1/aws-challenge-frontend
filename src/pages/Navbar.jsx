@@ -8,8 +8,8 @@ function Navbar({ user }) {
             headers: { "Content-Type": "application/json" },
             credentials: "include",
         });
-        navigate("/");
         location.reload();
+        navigate("/");
     };
     return (
         <div>
