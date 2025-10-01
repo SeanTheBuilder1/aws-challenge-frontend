@@ -13,6 +13,7 @@ function Navbar({ user }) {
     };
     return (
         <div>
+            AWS Challenge Teams{" "}
             {user ? (
                 <>
                     <Link to="/teams">Teams</Link>{" "}
